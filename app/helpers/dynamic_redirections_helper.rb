@@ -1,0 +1,2 @@
+module DynamicRedirectionsHelper
+end
