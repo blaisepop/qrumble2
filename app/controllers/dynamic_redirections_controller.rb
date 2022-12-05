@@ -12,8 +12,6 @@ class DynamicRedirectionsController < ApplicationController
   end
 
   def show
-    @dynamic_redirection = DynamicRedirection.find_by(key_value: params[:key_value])
-
   end
 
   def create
@@ -28,8 +26,8 @@ class DynamicRedirectionsController < ApplicationController
   end
 
   def edit
-    @qr_code = RQRCode::QRCode.new(root_url + "redirections" + @dynamic_redirection.key_value)
-    @qr_string = root_url + "redirections/" + @dynamic_redirection.key_value
+    @qr_code = RQRCode::QRCode.new(root_url + "dynamic_redirections" + @dynamic_redirection.key_value)
+    @qr_string = root_url + "dynamic_redirections/" + @dynamic_redirection.key_value
     @svg = @qr_code.as_svg(
       offset: 0,
       color: '000',
