@@ -1,0 +1,2 @@
+class DynamicRedirection < ApplicationRecord
+end
