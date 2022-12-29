@@ -2,7 +2,6 @@
   "name": "qrumble",
   "version": "1.0.0",
   "description": "v1 imp",
-  "main": "app/javascript/application.js",
   "repository": "git@github.com:blaisepop/qrumble2.git",
   "author": "blaisepop",
   "license": "MIT",
