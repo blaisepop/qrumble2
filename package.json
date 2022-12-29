@@ -9,7 +9,7 @@
   "private": true,
 
   "dependencies": {
-    "@rails/webpacker": "5.4.3",
+    "@rails/webpacker": "5.4.3"
   }
 
 }
