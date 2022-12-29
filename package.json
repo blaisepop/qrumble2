@@ -1,0 +1,8 @@
+{
+  "name": "qrumble",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "git@github.com:blaisepop/qrumble2.git",
+  "author": "Blaise Popote <blaisepopote@gmail.com>",
+  "license": "MIT"
+}
