@@ -1,8 +1,15 @@
 {
   "name": "qrumble",
   "version": "1.0.0",
-  "main": "index.js",
+  "description": "v1 imp",
+  "main": "app/javascript/application.js",
   "repository": "git@github.com:blaisepop/qrumble2.git",
-  "author": "Blaise Popote <blaisepopote@gmail.com>",
-  "license": "MIT"
+  "author": "blaisepop",
+  "license": "MIT",
+  "private": true,
+
+  "dependencies": {
+    "@rails/webpacker": "5.4.3",
+  }
+
 }
